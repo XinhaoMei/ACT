@@ -9,12 +9,12 @@ wav:
 encoder:
   model: 'audioset'  # 'deit'
   freeze: No
-  pretrained: Yes
+  pretrained: No
 
 decoder:
-  nhead: 4
+  nhead: 8
   nhid: 512
-  nlayers: 2
+  nlayers: 4
   dropout: 0.2
   dim_feedforward: 2048
   activation: 'gelu'
@@ -38,4 +38,4 @@ path:
   vocabulary: 'data/pickles/words_list.p'
   encoder: 'pretrained_models/audioset_deit.pth'  # 'pretrained_models/deit.pth'
   word2vec: 'pretrained_models/word2vec/w2v_512.model'
-  eval_model: 'pretrained_models/ACTs.pth'
+  eval_model: 'pretrained_models/ACTm.pth'
