@@ -1,4 +1,4 @@
-mode: 'eval'  # 'eval'
+mode: 'train'  # 'eval'
 
 wav:
   sr: 32000 
