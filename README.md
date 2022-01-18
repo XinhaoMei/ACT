@@ -7,7 +7,9 @@ This repository contains source code for our paper [Audio Captioning Transformer
 All the experiments were carried out on AudioCaps dataset, which is sourced from AudioSet.
 Our download version contains 49274/49837 audio clips in training set, 494/495 audio clips in validation set, 957/975 audio clips in test set.
 
-For reproducibility, our downloaded version can be accessed at: https://pan.baidu.com/s/1DkGsfQ0aM6lx6Gf6gCyrVw  password: a1p4 
+For reproducibility, our downloaded version can be accessed at: 
+* [Baidu](https://pan.baidu.com/s/1DkGsfQ0aM6lx6Gf6gCyrVw) password: a1p4 
+* [Google Drive](https://drive.google.com/drive/folders/1e5v-u7qRtmKAzQVMbBSy7CU-tp1nA0su?usp=sharing)
 
 To prepare the dataset:
 * Put downloaded zip files under `data` directory, and run `data_unzip.sh` to extract the zip files.
